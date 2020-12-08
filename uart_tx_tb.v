@@ -13,7 +13,7 @@ module uart_tx_tb();
 	
 	parameter [7:0] tx_data = 8'h51 ; 
 	
-	// Instantiate unit under test (counter)
+	// Instantiate unit under test 
 	uart_tx uart_tx1 (.tx_data(tx_data),.tx_clk(tx_clk),.nRST(nRST),.tx_output(tx_output), .clk_count(clk_count) , .tx_busy(tx_busy));
 
 	// Process to create clock signal
