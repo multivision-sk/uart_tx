@@ -1,0 +1,14 @@
+
+State Machine - |uart_tx|tx_state
+Name tx_state.STOP_ST tx_state.D7_ST tx_state.D6_ST tx_state.D5_ST tx_state.D4_ST tx_state.D3_ST tx_state.D2_ST tx_state.D1_ST tx_state.D0_ST tx_state.START_ST tx_state.0000 
+tx_state.0000 0 0 0 0 0 0 0 0 0 0 0 
+tx_state.START_ST 0 0 0 0 0 0 0 0 0 1 1 
+tx_state.D0_ST 0 0 0 0 0 0 0 0 1 0 1 
+tx_state.D1_ST 0 0 0 0 0 0 0 1 0 0 1 
+tx_state.D2_ST 0 0 0 0 0 0 1 0 0 0 1 
+tx_state.D3_ST 0 0 0 0 0 1 0 0 0 0 1 
+tx_state.D4_ST 0 0 0 0 1 0 0 0 0 0 1 
+tx_state.D5_ST 0 0 0 1 0 0 0 0 0 0 1 
+tx_state.D6_ST 0 0 1 0 0 0 0 0 0 0 1 
+tx_state.D7_ST 0 1 0 0 0 0 0 0 0 0 1 
+tx_state.STOP_ST 1 0 0 0 0 0 0 0 0 0 1 
